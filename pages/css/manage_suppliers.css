@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+
+
+}
+
+.navigation nav ul{
+	background: #fefefe;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 21px;
+	box-shadow: -2px -2px 11px 0px rgba(134, 168, 241, 0.711);
+ 
+}
+.navigation nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+ }
+.navigation nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	transition:1s ease-in-out;
+
+
+}
+.navigation nav ul li a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom: solid 2px blue;
+	transition:1s ease-in-out;
+}
+
+
+
+
+
+
+

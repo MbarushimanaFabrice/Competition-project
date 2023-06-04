@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* join or sign up and login */
+
+/* icons */
+
+body{
+	background-image: url(image_name.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+
+#access {
+	color: #ffffff;
+	background-color: #86d70c;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 18px;
+	border-radius: 5px;
+	display: none;
+
+}
+
+form {
+	width: 30%;
+	height: auto;
+	border-radius: 17px;
+	background: #e9e9e9c0;
+	position: relative;
+	font-size: 19px;
+	margin: 35px auto;
+	box-shadow: #63cdedc9 0px 9px 29px 0px;
+
+
+
+
+
+
+}
+
+.join {
+	padding: 84px;
+	position: relative;
+
+
+}
+
+.join img {
+	width: 20%;
+	position: absolute;
+	margin: -122px 100px;
+	background-color: #5df3c19b;
+	border-radius: 50%;
+
+}
+
+.join input {
+	padding: 19px;
+	width: 350px;
+	margin: 10px -32px;
+	border: none;
+	background-color: #ffffff;
+
+}
+
+.join h3 {
+	text-align: center;
+	padding: 11px;
+	color: #3e7160;
+}
+
+.join input:focus {
+	outline: none;
+}
+
+.join a {
+	text-align: center;
+	/* color: blue; */
+	text-align: center;
+	margin: 12px 37px;
+	background: #fffbfbcd;
+	font-weight: 400;
+	padding: 11px;
+}
+
+.join button {
+	width: 93%;
+	padding: 12px;
+	margin: 18px 15px;
+	border-radius: 22px;
+	font-size: 18px;
+	border: 1px solid #a7a3a3;
+	border-top: hidden;
+	color: black;
+	cursor: pointer;
+	transition: 0.8s ease-in-out;
+
+}
+
+.join button a {
+	text-decoration: none;
+	background: none;
+	color: black;
+}
+
+.join button a:hover {
+	text-decoration: none;
+	background: none;
+	color: rgb(255, 255, 255);
+}
+
+.join button:hover {
+	background-color: #3e7160;
+	color: white;
+	transition: 0.5s ease-in-out;
+}
+
+
+p {
+	color: red;
+	position: absolute;
+	font-weight: 500;
+	font-weight: 500;
+	margin: -380px 670px;
+	font-size: 18px;
+
+}
+h4{
+	color: red;
+	position: absolute;
+	font-weight: 500;
+	font-weight: 500;
+	margin: -450px 670px;
+	font-size: 18px;
+
+}

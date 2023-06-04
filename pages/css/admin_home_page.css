@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+
+
+}
+
+.navigation nav ul {
+	background: #fefefe;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 21px;
+	box-shadow: -2px -2px 11px 0px rgba(134, 168, 241, 0.711);
+
+}
+
+.navigation nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navigation nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	transition: 1s ease-in-out;
+
+}
+
+.navigation nav ul li a:hover {
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom: solid 2px blue;
+	transition: 1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.container {
+	position: absolute;
+	/* background: #000; */
+	width: 100%;
+	height: 91.5vh;
+	position: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(#d4d7fb40, #9090944b, rgba(80, 82, 83, 0.181));
+	/* background-image: linear-gradient(#28292986, #5e6c9347), url(../../images/kitchen.jpg); */
+}
+
+.container h2 {
+	position: relative;
+	margin: 127px 80px;
+	font-size: 39px;
+	line-height: 58px;
+}
+
+span {
+	color: #033066c4;
+	text-shadow: -20px 18px 4px #5555596b;
+ }
+
+.container p {
+	line-height: 29px;
+	margin: -102px 80px;
+	font-size: 22PX;
+}
+
+.parent {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+.options {
+	width: 50%;
+	text-align: center;
+	margin: 172px 0px;
+}
+
+.options button {
+	font-size: 15px;
+	margin: 25px;
+	padding: 16px;
+	text-align: center;
+	width: 188px;
+	cursor: pointer;
+	border: none;
+	border-radius: 12px;
+	background: #59655ba3;
+	color: white;
+	transition: 1s ease-in-out;
+
+}
+
+.options button:hover {
+	background: #06063bf0;
+	transition: 1s ease-in-out;
+}
+
+
+
+
+
+
+
+/* add product */
+
+
+.parents {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+.option {
+	width: 50%;
+	text-align: center;
+}
+
+.option button {
+	margin: 11px 0;
+	font-size: 15px;
+	padding: 16px;
+	text-align: center;
+	width: 188px;
+	cursor: pointer;
+	border: none;
+	border-radius: 12px;
+	background: #59655ba3;
+	color: white;
+	transition: 1s ease-in-out;
+
+
+}
+
+.option button:hover {
+	background: #06063bf0;
+	transition: 1s ease-in-out;
+}
+
+.parents form {
+	width: 25%;
+	height: 54vh;
+	margin: 121px 0px;
+	background: whitesmoke;
+	box-shadow: 0px -1px 5px 0px #3b413b;
+	border-radius: 12px;
+}
+
+.parents form label {
+	margin: 40px;
+}
+
+.parents form input {
+	padding: 16px;
+	margin: 20px 40px;
+	width: 67%;
+	border: none;
+	border-radius: 6px;
+	background: white;
+	color: black;
+
+}
+
+.parents form input:focus {
+	outline: none;
+	border: solid 1px rgb(0, 255, 38);
+	box-shadow: 0px -1px 5px 0px #3b413b77;
+}
+
+form>button {
+	margin: 11px 70px;
+	font-size: 15px;
+	padding: 16px;
+	text-align: center;
+	width: 188px;
+	cursor: pointer;
+	border: none;
+	border-radius: 12px;
+	background: #59655b49;
+	color: black;
+	transition: 1s ease-in-out;
+	box-shadow: 0px -1px 5px 0px #1c1d1cef;
+}
+form>button:hover {
+	background: #32323f72;
+	transition: 1s ease-in-out;
+	color: white;
+}
+table{
+	border-collapse: collapse;
+	width:100%;
+	margin: 21px 11px;
+	box-shadow: 1px ;
+	box-shadow: 0px -1px 5px 0px #1d1d20ef;
+
+}
+table th{
+	background: #1e29238e;
+	padding: 15px;
+	color: white;	
+}
+table td{
+	background-color: rgba(26, 24, 24, 0.445);
+	padding: 15px;
+	color: white;
+	border-bottom: solid 1px #e9e9f5;
+}
+td a{
+	color: black;
+	margin: 21px;
+	color: white;
+	text-decoration: none;
+	background: #525050c4;
+	padding: 12px;
+	border-radius: 9px;
+	transition:1s ease-in-out
+}
+td a:hover{
+	background: #050505ae;
+	transition:1s ease-in-out
+}
+
+
+
+
+
+/* 
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #844b4e;
+    clip-path: circle(70% at right -20%);
+
+*/
+
+/* ESTG2080!!! */

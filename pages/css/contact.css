@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navigation nav ul{
+	background: #fefefe;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 21px;
+	box-shadow: -2px -2px 11px 0px rgba(134, 168, 241, 0.711);
+ 
+}
+.navigation nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.navigation nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	transition:1s ease-in-out;
+
+}
+.navigation nav ul li a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom: solid 2px blue;
+	transition:1s ease-in-out;
+}
+.all_contact{
+	background-image: linear-gradient(#e2e6ebbc, #d3d5df42), url(images/background_for_contact_us.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 2px 3px 14px #464c46;
+ 
+}
+.forms{
+	margin: -6px 55px;
+	background-image: rgb(228, 241, 228),rgb(212, 212, 244);
+ }
+.forms input{
+	border-radius: 20px;
+ 	background-color: whitesmoke;
+	color: rgb(25, 24, 24);
+	padding: 13px;
+	border: solid #5c5a5a 0.22px;
+	width: 78%;
+	margin: 0px 39px;
+}
+.forms textarea{
+	border-radius: 20px;
+ 	background-color: whitesmoke;
+	color: rgb(25, 24, 24);
+	padding: 13px;
+	border: solid #5c5a5a 0.22px;
+	width: 78%;
+	margin: 0px 39px;
+
+}
+.all_contact h2{
+ 	text-transform: uppercase;
+	color: #032c5b;
+	margin:31px 172px;
+	
+}
+.forms .btn{
+	background-image: rgb(228, 241, 228),rgb(212, 212, 244);
+ 	border-radius: 17px;
+	width: 78%;
+	margin: 0px 39px;
+	padding: 17px;
+	font-size: 21px;
+
+}
+.forms .btn a{
+	text-decoration: none;
+	color: black;
+}
+.flexing{
+	display: flex;
+	justify-content: space-around;
+}
+.logoss{
+	margin: 88px 94px;
+}
+.all_contact button img{
+	width: 47px;
+ }
+ .all-top{
+	display: flex;
+	justify-content: space-between;
+ }
+ .all-top img{
+	width: 48px;
+	padding: 1px 3px 1px;
+ }
+
+ .card1{
+	margin: 11px 111px;
+	width: 90%;
+	height:499px;
+    box-shadow: 0px 4px 7px 0px #292c29;
+font-size: 21px;
+text-align: center;
+line-height: 62px;
+}

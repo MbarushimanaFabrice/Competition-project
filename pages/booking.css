@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: whitesmoke;
+	overflow-x:hidden;
+  }
+.main_container{
+	display: flex;
+	padding: 11px 6px;
+	/* margin: 72px 0px; */
+ }
+.conatiner1{
+	width: 25%;
+	background-color: #ffffff;
+}
+.container2{
+	width: 75%;
+}
+/* navugation bars */
+.all_nav{
+	background-image: linear-gradient(to right,#061b0639,#32323534);
+	height: 52px;
+	position: fixed;
+	width: 100%;
+	margin: -72px 0px;
+	padding: -7px 4px;
+ 	
+ }
+
+
+ 
+nav { 
+	justify-content: center;
+	position: relative;
+	top: -62px;
+	
+}
+
+ul {
+	display: flex;
+	padding: 1px 73px;
+	justify-content: right;
+ 	
+}
+
+li {
+	margin: 11px 44px;
+	list-style: none;
+ }
+
+li a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 800;
+	font-size: 1.2em;
+}
+li a:hover{
+	color: greenyellow;
+}
+
+.logo {
+	display: flex;
+
+}
+
+.log_p {
+	margin: 7px 11px;
+}
+/* end nav */
+  
+/* conatiner 1 */
+
+/* left side ony */
+.side_right{
+	width: 80%;
+	background-color: #f3ecec55;
+	margin: 11px 32px;
+}
+.side_right h2{
+	margin: 11px 22px;
+}
+.sub_right{
+	margin: 7px 22px;
+}
+.sub_right p{
+	margin: 11px 1px;
+	font-weight: bold;
+	color: #2c2e2f6d;
+}
+.sub_right input{
+	padding: 11px 2px;
+	width: 100%;
+	font-size: 17px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: rgba(81, 79, 79, 0.728);
+}
+input[type="text"]{
+	margin: 2px 11px;
+}
+.unique{	
+	text-align: center;
+}
+.side_right h3{
+	margin: 15px 11px;
+	color: rgba(81, 79, 79, 0.728);
+
+}
+/* design image zooming */
+.image_cont{
+ 	padding: 14px;
+}
+.image_cont img{
+	transition: 0.8s;
+ }
+.image_cont:hover img{
+	transform: scale(1.07);
+	transition: ease-in;
+	transition: 0.8s;
+}
+
+.price img{
+	width: 300px;
+	height: 154px;
+}
+.unique2{
+ 	height: 196px;
+	overflow-x: hidden;
+}
+.unique2 input{
+	margin: 10px -108px;
+	color: rgba(81, 79, 79, 0.728);
+	font-size: 17px;
+ }
+ .unique2::-webkit-scrollbar{
+	width: 10px;
+ }
+ .unique2::-webkit-scrollbar-thumb{
+	background-image: linear-gradient(to right,#86fc86ab,#c1da48d5);
+   }
+   .unique2::-webkit-scrollbar-thumb:hover{
+	background-image:linear-gradient(to right,red,#ffa60014);
+    }
+/* middole side ony */
+.header1 p{
+	font-weight: 300;
+	color: rgba(81, 79, 79, 0.728);
+	font-size: 19px;
+	margin: 14px 7px;
+}
+
+  .sinple_flex{
+	display: flex;
+	position: relative;
+  }
+  .container2 select{
+	padding: 5px 61px;	
+}
+.selecting select{
+	margin: 10px 619px;
+	position: absolute;
+	border: 0px solid;
+	text-align: left;
+	color: rgba(81, 79, 79, 0.728);
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+/* design images */
+table img{
+	width: 400px;
+}
+table{
+	margin: 23px 5px;	
+}
+.bgchange{
+	background-color: #ebe5e5b5;
+ }
+.innerText{
+	margin:-118px 22px;
+}
+.innerText h4{
+	margin:18px 1px;
+
+}
+.innerText h4{
+	font-size:26px;
+	color:#000000bb;
+}
+.innerText p{
+	font-size: 21px;
+	color: rgba(81, 79, 79, 0.728);
+}
+.innerText i{
+ 	font-size: 22px;
+	text-align:center;
+	margin:19px;
+}
+/* right side */
+.right_elem{
+	margin:2px 32px;
+	text-align: center;
+}
+.right_elem h3{
+	margin: 11px 3px;
+	font-size: 31px;
+	color: #1c1b1b8d;
+}
+.right_elem p{
+	font-size: 18px;
+	color: #1c1b1b8d;
+	margin: 4px 8px;
+	text-transform: uppercase;
+}
+.right_elem button{
+	padding:7px 40px;
+	border: none;
+	background: #ff429ad5;
+	font-size: 15px;
+	margin: 27px 25px;
+}
+.right_elem button:hover{
+	background-color: #f01368e3;
+	transition:1s;
+	color:#2b292ae1;
+	font-size: 19px;
+}
+.right_elem select{
+	border: none;
+	padding: 9px 4px;
+	width: 100%;
+	font-size: 15px;
+}
+
+
+/* defualt about us */
+
+
+#about_us{
+	width:100%;
+	height: 377px;
+	background-color: #181717de;
+	margin: -92px 0px;
+
+}
+#about_us{
+	display: flex;
+	text-align: start;
+	color: #f5f5f5ce;
+	
+  }
+ .about{
+	margin: 33px 63px;
+
+ }
+ .aboutH{
+	margin: -1px 2px;
+	padding: 7px 2px;
+ }
+  .fb{
+	background-color: rgba(12, 12, 159, 0.731);
+	border-radius: 50%;
+	margin: 21px 13px;
+	width: 33px;
+ }
+.ather_log{
+	width: 33px;
+	margin: 21px 13px;
+
+}
+
+ .about h3{
+	color: whitesmoke;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+ 

@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navigation nav ul{
+	background: #fefefe;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 21px;
+	box-shadow: -2px -2px 11px 0px rgba(134, 168, 241, 0.711);
+ 
+}
+.navigation nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+.navigation nav ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	transition:1s ease-in-out;
+
+}
+.navigation nav ul li a:hover{
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom: solid 2px blue;
+	transition:1s ease-in-out;
+}
+.container{
+	width: 100%;
+	height: 94vh;
+	margin: 5	px 0px;
+	background-image: linear-gradient(rgba(3, 0, 0, 0.525), rgba(0, 3, 2, 0.525)), url(../images/bedroom4.jpg);
+ 	background-size: cover;
+	background-position: center;
+	position: relative;
+ }
+ .active{
+	border-bottom: solid 2px blue;
+
+
+ }
+ .container h2{
+	color: white;
+	margin: 222px 112px;
+	position: absolute;
+	font-size: 34px;
+ }
+ .container p{
+ 	margin: 322px 112px;
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	
+ }
+ span{
+	color: rgb(209, 209, 251);
+ }
+ .container button{
+	text-align: center;
+    /* color: blue; */
+    text-align: center;
+    margin: 12px 37px;
+    background: #fffbfbcd;
+    font-weight: 400;
+    padding: 11px;
+	margin: 422px 212px;
+	width: 144px;
+	border: none;
+	border-radius: 21px;
+	font-size: 18px;
+	cursor: pointer;
+	transition:1s ease-in-out;
+
+}
+ .container button:hover{
+	text-align: center;
+    /* color: blue; */
+    text-align: center;
+    margin: 12px 37px;
+    background: #9acff5cd;
+    font-weight: 400;
+    padding: 11px;
+	margin: 422px 212px;
+	width: 144px;
+	border: none;
+	border-radius: 21px;
+	font-size: 18px;
+	cursor: pointer;
+	transition:1s ease-in-out;
+	position: absolute;
+
+}
+.sub-container{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.mission{
+	margin: 11px 111px;
+	width: 40%;
+	height:499px;
+    box-shadow: 0px 4px 7px 0px #292c29;
+font-size: 21px;
+text-align: center;
+line-height: 42px;
+}
+.mission h1{
+	color: #8484fa;
+	margin: 22px 0px;
+}
+.slide_image{
+	width: 50%;
+	height: 505px;
+ 
+}
+.slide_image img{
+	width: 99%;
+	height: 96%;
+	margin: 18px 0px;
+}
+.mymedia h2{
+	text-align: center;
+	margin: 21px 0px;
+	color: #8484fa;
+	font-size: 21px;
+}
+
+.sub-media{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 422px;
+ 	position: relative;
+}
+blockquote{
+	height: 100%;
+ }
