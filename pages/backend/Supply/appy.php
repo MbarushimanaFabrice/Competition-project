@@ -69,7 +69,7 @@ $select=mysqli_query($conn,"SELECT * FROM `supplier` WHERE sup_name LIKE '%$dbus
 <center>
 	<div class="myform">
 		<p>Add Application form</p>
-<form action="" method="post">
+<form action="" method="post" enctype="multipart/form-data">
 		<input type="hidden" value="<?php echo $pro_id ?>" name="pro_id">
 		<input type="hidden" value="<?php echo $sup_id ?>" name="sup_id"><br>
 		<input type="file" name="file"><br><br>
@@ -85,19 +85,22 @@ $select=mysqli_query($conn,"SELECT * FROM `supplier` WHERE sup_name LIKE '%$dbus
 if(isset($_POST['apply'])){
 	$pro_id=$_POST['pro_id'];
 	$sup_id=$_POST['sup_id'];
-	$file=$_POST['file'];
-	$insert=mysqli_query($conn,"INSERT INTO application(`file`,`sup_id`,`pro_id`)VALUES('$file','$sup_id','$pro_id')");
-	// if($conn->query($insert)){
-	// 	echo "data inserted";
-	// }else{
-	// 	echo "error:".$insert."<br>".$conn->error;
-	//  }
-	if($insert){
-		echo "<h5>Your Application have been Sent view Acceptance and Rejected for more</h5>";
+	$file=$_FILES['file']['name'];
+	$tmp_file=$_FILES['file']['tmp_name'];
+	$file_type = $_FILES['file']['type'];
 
+	if(move_uploaded_file($tmp_file,"files/".$file)){
+		$insert=mysqli_query($conn,"INSERT INTO application(`file`,`sup_id`,`pro_id`)VALUES('$file','$sup_id','$pro_id')");
+	 
+		if($insert){
+			echo "<h5>Your Application have been Sent view Acceptance and Rejected for more</h5>";
+	
+		}else{
+	
+			echo "samething wrong";
+		}
 	}else{
-
-		echo "samething wrong";
+		echo "NOt Uploaded";
 	}
 
 }

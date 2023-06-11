@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['file'])) {
-    $filename = $_GET['file'];
+    $filename = "../Supply/files/".$_GET['file'];
 
     // Set the appropriate headers
     header('Content-Type: application/pdf');

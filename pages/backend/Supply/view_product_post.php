@@ -23,7 +23,7 @@ if($dbuser_name){
 	<div class="navigation">
 		<nav>
 			<ul>
-				<li class="active"><a href="../../index.html">Home</a></li>
+				<li class="active"><a href="../../../index.html">Home</a></li>
 				<li><a href="../../About.html">About Us</a></li>
 				<li><a href="../../booking.html">Our Rooms</a></li>
 				<li><a href="../../contact.html">Contact Us</a></li>
